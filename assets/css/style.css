@@ -1,0 +1,53 @@
+.jumbotron {
+background-image: url("../images/train3.jpg");
+background-size: cover;
+}
+
+body{
+    font-family: 'Noto Serif', serif;
+}
+
+#invisibleText {
+    visibility: hidden;
+}
+
+h1 {
+    color: white;
+    font-family: 'Noto Serif', serif;
+    border: solid white 3px;
+    font-size: 2.5em;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.scheduleHeader {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+#current-schedule, #add-train {
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+h3{
+    padding:5px;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    border: solid black 1.5px;
+}
+
+.btn {
+    margin:  20px;
+}
+
+
