@@ -7,7 +7,8 @@
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Firebase Reference -->
-    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script> -->
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
     <!-- Moment.js -->
@@ -22,25 +23,30 @@
     
     <div class="container">
 
-        <div id="current-schedule">
-            <h3>Current Train Schedule</h3>
             <div class="row">
-                <div id="trainName-table" class="col-lg-2">
-                    <p class="scheduleHeader"> Train Name</p>  
-                </div>
-                <div id="destination-table"class="col-lg-2">
-                    <p class="scheduleHeader">Destination</p>
-                </div>
-                <div id="frequency-table" class="col-lg-2">
-                    <p class="scheduleHeader">Frequency (min)</p>
-                </div>
-                <div id="nextArrival-table" class="col-lg-2">
-                    <p class="scheduleHeader">Next Arrival</p>
-                </div>
-                <div id="minutesAway-table" class="col-lg-2">
-                    <p class="scheduleHeader">Minutes Away</p>
-                </div>  
-            </div>
+                    <div class="col-md-12">
+                      <!-- Current Trains-->
+                      <div class="card mb-4">
+                        <div class="card-header">Current Train Schedule</div>
+                        <div class="card-body">
+                          <table class="table table-sm table-hover" id="train-table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Train Name</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Frequency (min)</th>
+                                <th scope="col">Next Arrival</th>
+                                <th scope="col">Minutes Away</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
             
         </div>
         <div id="add-train">
@@ -68,7 +74,10 @@
             </form>
         </div>
     </div>
-
+    
+    <!-- Moment.js -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
