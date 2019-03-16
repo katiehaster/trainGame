@@ -20,34 +20,6 @@ h1 {
     padding-bottom: 10px;
 }
 
-.scheduleHeader {
-    font-weight: bold;
-}
 
-.container {
-    max-width: 980px;
-    margin: auto;
-}
-
-#current-schedule, #add-train {
-    border: 2px solid black;
-    margin-top: 20px;
-    padding: 10px;
-}
-
-.form-group {
-    padding: 20px;
-}
-
-h3{
-    padding:5px;
-    background-color: rgb(233, 233, 233);
-    color: black;
-    border: solid black 1.5px;
-}
-
-.btn {
-    margin:  20px;
-}
 
 
