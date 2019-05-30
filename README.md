@@ -21,3 +21,6 @@ With minimal information inputted, this game calculates for you when you can exp
 
 ## Project Status
 For the parameters now, it is complete. However, a "nice to have" feature would be to add in an API for Amtrak, or another train company. As of right now the trains on this game are made up, just to show the user how the game works. Ideally, if I were to add an API, the user could select their train, and have the same information populate regarding next train / how many minutes away.
+
+## Author
+Katie Haster
